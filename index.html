@@ -9,11 +9,15 @@
 </head>
 <body>
     <nav>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
+    
+        
     <img id="headshot" src="head.png" alt="Image of myself">
     <h1>Aidan Lane</h1>
     <h2>Application Developer</h2>
@@ -21,25 +25,23 @@
         and potential employers to showcase my work and 
         talents in application development and data science.
         </p>
-    <section>
-        <div id="cards">
-            <div class="card" onclick="location.href = 'https://github.com/Typical-OutOfBounds/SampleLASSO';">
-                <img class="project-photo" src="genes.webp" alt="Image of gene structure">
-                <p>SampleLASSO</p>
-                <p>A Python package to quickly impute genes taking advantage of sample-sample relationships between gene samples</p>
-            </div>
-            <div class="card" onclick="location.href = 'https://github.com/Typical-OutOfBounds/ApartmentFinder';">
-                <img class="project-photo"v src="apartments.jpg" alt="Apartment Complex">
-                <p>ApartmentFinder</p>
-                <p>A Python program to scrape and analyze aparment listings across major rental sites</p>
-            </div>
-            <div class="card" onclick="location.href = 'https://github.com/Typical-OutOfBounds/twitter';">
-                <img class="project-photo" src="twitter.png" alt="Twitter Icon"><br>
-                <p>IOS Twitter App</p>
-                <p>A mock Twitter app made in Swift using the Twitter API</p>
-            </div>
+    <div id="cards">
+        <div class="card" onclick="location.href = 'https://github.com/Typical-OutOfBounds/SampleLASSO';">
+            <img class="project-photo" src="genes.webp" alt="Image of gene structure">
+            <p>SampleLASSO</p>
+            <p>A Python package to quickly impute genes taking advantage of sample-sample relationships between gene samples</p>
         </div>
-    </section>
+        <div class="card" onclick="location.href = 'https://github.com/Typical-OutOfBounds/ApartmentFinder';">
+            <img class="project-photo" src="apartments.jpg" alt="Apartment Complex">
+            <p>ApartmentFinder</p>
+            <p>A Python program to scrape and analyze aparment listings across major rental sites</p>
+        </div>
+        <div class="card" onclick="location.href = 'https://github.com/Typical-OutOfBounds/twitter';">
+            <img class="project-photo" src="twitter.png" alt="Twitter Icon"><br>
+            <p>IOS Twitter App</p>
+            <p>A mock Twitter app made in Swift using the Twitter API</p>
+        </div>
+    </div>
     <footer>
         <a class="footer-link" target="_blank" href="https://github.com/Typical-OutOfBounds/Portfolio-Website">Click here to see how this site was made</a>
     </footer>

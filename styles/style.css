@@ -91,11 +91,21 @@ footer {
 #about-photo {
     aspect-ratio: 1/1;
     border-radius: 15px;
+    object-fit: fill;
+    width:25%
 }
 
 .about-item {
     margin:20px;
-    width:40%;
+    width:35%;
+    display:flex;
+    justify-content: center;
+}
+
+#about-text {
+    vertical-align: middle;
+    text-align: center;
+    width: 60%;
 }
 
 #resume-container {
